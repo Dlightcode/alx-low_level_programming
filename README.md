@@ -1,1 +1,1 @@
-My first work in C programming as a software Developer
+More functions and loops
