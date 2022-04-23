@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * _strcmp - compares two strings
  * @s1: first string.
@@ -17,7 +17,4 @@ if ((*(s1 + i) == '\0') && (*(s2 + i) == '\0'))
 break;
 op = *(s1 + i) - *(s2 + i);
 i++;
-}
-
-return (op);
 }
